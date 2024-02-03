@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/rohithvp/url_shorteners.git
     targetRevision: HEAD
-    path: ./simple-app
+    path: .
   destination: 
     server: https://kubernetes.default.svc
     
