@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: shortenurl
-        image: rohithvp/short_url:20240203
+        image: rohithvp/short_url:20240219
         env:
             - name: USER
               value: postgres
@@ -26,5 +26,6 @@ spec:
               value: postgres
             - name: DB_PORT
               value: "5432"
+        type: NodePort
         ports:
         - containerPort: 8080 
