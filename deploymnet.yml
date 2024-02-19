@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: shortenurl
-        image: rohithvp/short_url:20240219
+        image: rohithvp/short_url:202402191041
         env:
             - name: USER
               value: postgres
